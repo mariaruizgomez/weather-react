@@ -1,0 +1,21 @@
+.HeaderCities li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.HeaderCities ul {
+  padding: 0;
+  margin: 0;
+}
+
+.HeaderCities a.city {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 3.5;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+.HeaderCities a.city:hover {
+  color: pink;
+}

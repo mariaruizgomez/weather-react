@@ -1,0 +1,19 @@
+.InfoWeather strong {
+  font-size: 65px;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  opacity: 0.7;
+  float: left;
+  position: relative;
+  padding: 1px;
+  margin-left: 27px;
+}
+
+.InfoWeather ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.InfoWeather hr {
+  width: 100px;
+}
