@@ -1,33 +1,45 @@
-.Form {
+.Weather form {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.Form form {
+form {
   display: flex;
 }
 
-.Form .search-button {
+.search-button {
   margin: 10px;
-  padding: 0 40px;
-  color: blueviolet;
-  background: var(--text-color-main);
-  border: 1px solid white;
+  padding: 0 10px;
+  color: #DAF2D8;
+  background-color: #F2CFD6;
+  border: 1px solid #F2CFD6;
   border-radius: 5px;
   transition: all 200ms ease-in-out;
   font-size: large;
 }
 
-.Form .search-button:hover {
+.search-button:hover {
   background-color: white;
-  color: var(--text-color-main);
 }
 
 .fa-location-dot {
-  color: blueviolet;
+  color: #DAF2D8;
   font-size: 30px;
+  margin: 0 20px;
 }
 
-.Form .description {
-  font-size: 35px;
-  color: aquamarine;
+.description {
+  font-size: 25px;
+  color: rgb(33, 33, 33);
+  opacity: 0.7;
+}
+
+.Weather ul {
+  list-style: none;
+  
+}
+
+.Weather li {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  opacity: 0.7;
 }

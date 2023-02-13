@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
+import "./Form.css";
 
 export default function Weather(props) {
   const [weatherData, setweatherData] = useState({ ready: false });
@@ -87,7 +88,7 @@ export default function Weather(props) {
   } else {
     const apiKey = "9c340174dce0d0c11428fd78107dfdf3";
     let units = "metric";
-    let city = "Las Vegas";
+
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(handleResponse);
 
