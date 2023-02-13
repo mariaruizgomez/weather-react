@@ -1,24 +1,33 @@
+import React from "react";
 import "./App.css";
 import Weather from "./Weather";
-import Form from "./Form";
-import "./Form.css";
-import HeaderCities from "./HeaderCities";
-import InfoWeather from "./InfoWeather";
-import Forecast from "./Forecast";
-import "./HeaderCities.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <HeaderCities />
-        <Form />
-        <Weather/>
-        <InfoWeather />
-        <Forecast />
-      </header>
+      <div className="container">
+        
+        <Weather />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="linkedin.com/in/carmenruizgomez"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Maria Ruiz
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/mariaruizgomez/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;

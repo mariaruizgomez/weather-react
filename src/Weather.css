@@ -1,5 +1,7 @@
 .Weather {
   margin: 5px;
   padding: 5px;
+  border: 1px solid burlywood;
+  border-radius: 8px;
 }
 
