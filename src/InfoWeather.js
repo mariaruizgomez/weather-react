@@ -6,8 +6,8 @@ import WeatherIcon from "./WeatherIcon";
 export default function InfoWeather(props) {
   return (
     <div className="InfoWeather">
-      <div className="row d-flex align-items-center">
-        <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+      <div className="row d-flex align-items-right">
+        <div className="col-12 d-flex flex-column justify-content-center">
           <div className="current-city">
             <h1>{props.data.city}</h1>
             <i className="fa-solid fa-location-dot"></i>

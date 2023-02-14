@@ -29,6 +29,8 @@
 .Weather h1,
 .fa-location-dot {
   display: flex;
+  margin-top: 10px;
+  margin-left: 230px;
 }
 .description {
   margin-left: 10px;
@@ -36,16 +38,20 @@
 
 .Weather form {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  
 }
 form {
   display: flex;
+  padding: 10px 10px;
+  margin: 10px;
+  
 }
 
 .search-button {
   margin: 10px;
   padding: 0 10px;
-  color: #daf2d8;
+  color: #92B3E8;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -58,7 +64,7 @@ form {
 }
 
 .fa-location-dot {
-  color: #daf2d8;
+  color: #92B3E8;
   font-size: 30px;
   margin: 0 20px;
 }
