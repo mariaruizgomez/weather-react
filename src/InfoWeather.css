@@ -17,3 +17,13 @@
 .InfoWeather hr {
   width: 100px;
 }
+.InfoWeather strong {
+  font-size: 65px;
+  color: white;
+  font-weight: 400;
+  opacity: 0.7;
+  float: left;
+  position: relative;
+  padding: 1px;
+  margin-left: 27px;
+}
