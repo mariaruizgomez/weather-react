@@ -42,3 +42,48 @@ display: flex;
   padding: 1px;
   margin-left: 27px;
 }
+.Weather form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+form {
+  display: flex;
+}
+
+.search-button {
+  margin: 10px;
+  padding: 0 10px;
+  color: #DAF2D8;
+  background-color: #F2CFD6;
+  border: 1px solid #F2CFD6;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  font-size: large;
+}
+
+.search-button:hover {
+  background-color: white;
+}
+
+.fa-location-dot {
+  color: #DAF2D8;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+.description {
+  font-size: 25px;
+  color: rgb(33, 33, 33);
+  opacity: 0.7;
+}
+
+.Weather ul {
+  list-style: none;
+  
+}
+
+.Weather li {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  opacity: 0.7;
+}
