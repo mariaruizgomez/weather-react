@@ -180,7 +180,8 @@ span {
     margin-bottom: 20px;
   }
   .InfoWeather hr {
-    display: none;
-    
+    display: block;
+    margin: 0 80px;
+    margin-bottom: 15px;
   }
 }
