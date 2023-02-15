@@ -21,11 +21,11 @@
   color: #38389e;
 }
 
-@media (mmin-width: 1200px) {
+@media (max-width: 410px) {
   .HeaderCities ul {
     padding: 0;
     margin: 0;
     display: inline-block;
-    margin: 0 30px auto;
+    margin: 0 40px auto;
   }
 }

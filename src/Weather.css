@@ -134,12 +134,11 @@ span {
   color: white;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 410px) {
   li.humidity {
     display: flex;
-
     float: left;
-    margin-left: -40px;
+    margin: 0 auto;
   }
 
   li.wind {
@@ -180,8 +179,6 @@ span {
     margin-bottom: 20px;
   }
   .InfoWeather hr {
-    display: block;
-    margin: 0 80px;
-    margin-bottom: 15px;
+    display: none;
   }
 }
