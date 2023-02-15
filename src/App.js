@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        
         <Weather defaultCity="Las Vegas" />
         <footer>
           This project was coded by{" "}
@@ -18,13 +17,21 @@ export default function App() {
             {" "}
             Maria Ruiz
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/mariaruizgomez/weather-react"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://ephemeral-bublanina-84ad9e.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
