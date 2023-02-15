@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import InfoWeather from "./InfoWeather";
+import HeaderCities from "./HeaderCities";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -38,21 +39,26 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <div className="col-12">
-          <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              placeholder="Enter a city"
-              className="form-control"
-              autoFocus="on"
-              onChange={handleCityChange}
-            />
-            <div>
-              <button className="search-button" title="Search">
-                <i className="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </div>
-          </form>
+        <div className="row">
+          <div className="col-12 col-md-6 d-flex flex-column justify-content-center ">
+            <HeaderCities />
+          </div>
+          <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <form onSubmit={handleSubmit}>
+              <input
+                type="search"
+                placeholder="Enter a city"
+                className="form-control"
+                autoFocus="on"
+                onChange={handleCityChange}
+              />
+              <div>
+                <button className="search-button" title="Search">
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
 
         <InfoWeather data={weatherData} />

@@ -1,6 +1,7 @@
 .HeaderCities li {
   display: inline-block;
   margin: 10px;
+  margin-top: -45px;
 }
 
 .HeaderCities ul {
@@ -9,13 +10,13 @@
 }
 
 .HeaderCities a.city {
-  color: blueviolet;
+  color: #6f6fb7;
   text-decoration: none;
   font-size: 18px;
-  line-height: 3.5;
+
   font-weight: 600;
   transition: all 200ms ease-in-out;
 }
 .HeaderCities a.city:hover {
-  color: pink;
+  color: white;
 }

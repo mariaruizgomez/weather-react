@@ -16,24 +16,28 @@
 }
 
 .Weather h1 {
-  font-size: 50px;
-  color: white;
+  font-size: 40px;
+  color: #6f6fb7;
   font-weight: 700;
   display: flex;
-  float: left;
-
-  padding: 1px;
-  margin-left: 5px;
+  float: right;
 }
 
-.Weather h1,
 .fa-location-dot {
   display: flex;
-  margin-top: 10px;
-  margin-left: 230px;
+
+  float: right;
+  color: white;
+  margin: 0 20px;
+  font-size: 30px;
+  margin-top: 8px;
 }
+
 .description {
-  margin-left: 10px;
+  font-size: 25px;
+  color: #f0cdd4;
+  display: flex;
+  float: right;
 }
 
 .Weather form {
@@ -42,14 +46,13 @@
 }
 form {
   display: flex;
-  padding: 10px 10px;
-  margin: 10px;
+  padding: 5px 5px;
 }
 
 .search-button {
   margin: 10px;
   padding: 0 10px;
-  color: #92b3e8;
+  color: #6f6fb7;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -61,29 +64,82 @@ form {
   color: white;
 }
 
-.fa-location-dot {
-  color: #92b3e8;
-  font-size: 30px;
-  margin: 0 20px;
-}
-
-.description {
-  font-size: 25px;
-  color: white;
-}
-
 .Weather ul {
   list-style: none;
 }
 
 .Weather li {
-  color: rgb(33, 33, 33);
+  color: #6f6fb7;
   font-size: 16px;
 }
 
-.Weather canvas {
-  margin-right: 10px;
+.InfoWeather canvas {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: -22px;
+}
+
+.description {
+  font-size: 25px;
+  color: white;
   display: flex;
+  justify-content: left;
+  font-family: poppis;
+  font-weight: 900;
+  transition: all 200ms ease-in-out;
+  margin-bottom: 5px;
+}
+
+.description:hover {
+  font-size: 35px;
+  display: flex;
+  justify-content: right;
+}
+
+.temperature {
+  font-size: 75px;
+  color: white;
+  font-weight: 400;
+  float: left;
+  margin-top: -35px;
+  display: flex;
+  margin-left: 20px;
+}
+.unit a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.InfoWeather ul {
+  text-decoration: none;
+}
+
+.InfoWeather hr {
+  width: 200px;
+}
+.fa-calendar,
+.fa-droplet,
+.fa-wind {
+  color: white;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.fa-calendar {
+  margin-top: 2px;
+  font-size: 30px;
+  color: black;
+}
+.InfoWeather .date {
+  font-size: medium;
+  font-weight: bold;
+  font-family: poppis;
+  display: inline-flex;
+  color: black;
+
+  font-size: 25px;
+}
+
+span {
+  color: white;
 }

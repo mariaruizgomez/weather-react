@@ -2,7 +2,7 @@ import React from "react";
 import "./HeaderCities.css";
 
 export default function HeaderCities(props) {
-  const displayedCities = ["New York", "Madrid", "Paris", "Tokyo"];
+  const displayedCities = ["New York", "Madrid", "Paris"];
 
   return (
     <div className="HeaderCities">
