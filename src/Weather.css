@@ -126,7 +126,6 @@ form {
   font-family: monospace;
   display: inline-flex;
   color: white;
-
   font-size: 20px;
 }
 
@@ -134,11 +133,11 @@ span {
   color: white;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 391px) {
   li.humidity {
     display: flex;
     float: left;
-    margin: 0 auto;
+    margin-left: -10px;
   }
 
   li.wind {
@@ -155,8 +154,8 @@ span {
   }
 
   strong {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
   }
 
   li span {
