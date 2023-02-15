@@ -31,14 +31,17 @@ export default function InfoWeather(props) {
           <div className="col-12 col-md-4">
             <ul>
               <li>
+                <i class="fa-regular fa-calendar"></i>
                 <FormattedDate date={props.data.date} />
               </li>
               <hr />
 
               <li>
-                Humidity: <span>{props.data.humidity}</span> %
+                <i class="fa-solid fa-droplet"></i> Humidity:{" "}
+                <span>{props.data.humidity}</span> %
               </li>
               <li>
+                <i class="fa-solid fa-wind"></i>
                 Wind: <span>{props.data.wind}</span> km/h
               </li>
             </ul>
