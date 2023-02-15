@@ -17,7 +17,7 @@
 
 .Weather h1 {
   font-size: 40px;
-  color: #6f6fb7;
+  color: #38389e;
   font-weight: 700;
   display: flex;
   float: right;
@@ -46,7 +46,7 @@ form {
 .search-button {
   margin: 10px;
   padding: 0 10px;
-  color: #6f6fb7;
+  color: #38389e;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -63,7 +63,7 @@ form {
 }
 
 .Weather li {
-  color: #6f6fb7;
+  color: #38389e;
   font-size: 16px;
 }
 
@@ -74,7 +74,7 @@ form {
 
 .description {
   font-size: 35px;
-  color: white;
+  color: #38389e;
   display: flex;
   justify-content: left;
   font-family: poppis;
@@ -88,7 +88,7 @@ form {
 
 .temperature {
   font-size: 75px;
-  color: white;
+  color: #38389e;
   font-weight: 400;
   float: left;
   margin-top: -35px;
@@ -97,7 +97,7 @@ form {
 }
 .unit a {
   text-decoration: none;
-  color: white;
+  color: #38389e;
   font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ form {
 
 .fa-calendar {
   margin-top: 2px;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
 }
 .InfoWeather .date {
@@ -128,7 +128,7 @@ form {
   display: inline-flex;
   color: white;
 
-  font-size: 25px;
+  font-size: 20px;
 }
 
 span {

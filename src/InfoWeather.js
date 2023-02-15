@@ -2,7 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
-import Forecast from "./Forecast";
+
 
 export default function InfoWeather(props) {
   return (
@@ -29,7 +29,7 @@ export default function InfoWeather(props) {
       <div className="row d-flex align-items-center">
         <div className="col-6 col-md-2">
           <div className="float-left">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={95} />
           </div>
         </div>
         <div className="col-6 col-md-4">
@@ -56,7 +56,6 @@ export default function InfoWeather(props) {
             </li>
           </ul>
         </div>
-        <Forecast />
       </div>
     </div>
   );
