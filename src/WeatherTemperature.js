@@ -1,4 +1,3 @@
-import { func } from "prop-types";
 import React, { useState } from "react";
 
 export default function WeatherTemperature(props) {
@@ -8,6 +7,7 @@ export default function WeatherTemperature(props) {
     event.preventDefault();
     setUnit("fahrenheit");
   }
+
   function showCelsius(event) {
     event.preventDefault();
     setUnit("celsius");
