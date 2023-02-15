@@ -21,7 +21,7 @@
   color: #38389e;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 360px) {
   .HeaderCities ul {
     padding: 0;
     margin: 0;
