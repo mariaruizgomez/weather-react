@@ -33,12 +33,6 @@
   margin-top: 8px;
 }
 
-.description {
-  font-size: 25px;
-  color: #f0cdd4;
-  display: flex;
-  float: right;
-}
 
 .Weather form {
   margin-top: 5px;
@@ -79,7 +73,7 @@ form {
 }
 
 .description {
-  font-size: 25px;
+  font-size: 35px;
   color: white;
   display: flex;
   justify-content: left;
@@ -87,13 +81,10 @@ form {
   font-weight: 900;
   transition: all 200ms ease-in-out;
   margin-bottom: 5px;
+  margin-left: 40px;
 }
 
-.description:hover {
-  font-size: 35px;
-  display: flex;
-  justify-content: right;
-}
+
 
 .temperature {
   font-size: 75px;
@@ -128,14 +119,14 @@ form {
 .fa-calendar {
   margin-top: 2px;
   font-size: 30px;
-  color: black;
+  color: white;
 }
 .InfoWeather .date {
   font-size: medium;
   font-weight: bold;
-  font-family: poppis;
+  font-family: monospace;
   display: inline-flex;
-  color: black;
+  color: white;
 
   font-size: 25px;
 }
