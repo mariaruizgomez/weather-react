@@ -19,7 +19,7 @@
   font-size: 50px;
   color: white;
   font-weight: 700;
-
+  display: flex;
   float: left;
 
   padding: 1px;
@@ -39,19 +39,17 @@
 .Weather form {
   margin-top: 5px;
   margin-bottom: 15px;
-  
 }
 form {
   display: flex;
   padding: 10px 10px;
   margin: 10px;
-  
 }
 
 .search-button {
   margin: 10px;
   padding: 0 10px;
-  color: #92B3E8;
+  color: #92b3e8;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -64,7 +62,7 @@ form {
 }
 
 .fa-location-dot {
-  color: #92B3E8;
+  color: #92b3e8;
   font-size: 30px;
   margin: 0 20px;
 }
@@ -87,4 +85,6 @@ form {
   margin-right: 10px;
   display: inline-block;
   margin-top: 5px;
+  display: flex;
+ 
 }

@@ -1,12 +1,14 @@
-.InfoWeather strong {
-  font-size: 65px;
+.temperature {
+  
+  font-size: 85px;
   color: rgb(33, 33, 33);
   font-weight: 400;
   opacity: 0.7;
   float: left;
-  position: relative;
-  padding: 1px;
-  margin-left: 27px;
+  margin-top: -25px;
+  
+  
+  
 }
 
 .InfoWeather ul {
@@ -16,14 +18,4 @@
 
 .InfoWeather hr {
   width: 100px;
-}
-.InfoWeather strong {
-  font-size: 65px;
-  color: white;
-  font-weight: 400;
-  opacity: 0.7;
-  float: left;
-  position: relative;
-  padding: 1px;
-  margin-left: 27px;
 }
