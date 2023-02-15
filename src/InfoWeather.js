@@ -29,7 +29,7 @@ export default function InfoWeather(props) {
       <div className="row d-flex align-items-center">
         <div className="col-6 col-md-2">
           <div className="float-left">
-            <WeatherIcon code={props.data.icon} size={95} />
+            <WeatherIcon code={props.data.icon} size={100} />
           </div>
         </div>
         <div className="col-6 col-md-4">

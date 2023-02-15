@@ -17,7 +17,7 @@
 
 .Weather h1 {
   font-size: 40px;
-  color: #38389e;
+  color: white;
   font-weight: 700;
   display: flex;
   float: right;
@@ -27,12 +27,11 @@
   display: flex;
 
   float: right;
-  color: white;
+  color: #38389e;
   margin: 0 20px;
   font-size: 30px;
   margin-top: 8px;
 }
-
 
 .Weather form {
   margin-top: 5px;
@@ -76,7 +75,7 @@ form {
   font-size: 35px;
   color: #38389e;
   display: flex;
-  justify-content: left;
+  justify-content: right;
   font-family: poppis;
   font-weight: 900;
   transition: all 200ms ease-in-out;
@@ -84,14 +83,12 @@ form {
   margin-left: 40px;
 }
 
-
-
 .temperature {
   font-size: 75px;
   color: #38389e;
   font-weight: 400;
   float: left;
-  margin-top: -35px;
+  margin-top: -30px;
   display: flex;
   margin-left: 20px;
 }
@@ -107,6 +104,8 @@ form {
 
 .InfoWeather hr {
   width: 200px;
+  background-color: #38389e;
+  height: 5px;
 }
 .fa-calendar,
 .fa-droplet,
@@ -133,4 +132,55 @@ form {
 
 span {
   color: white;
+}
+
+@media (max-width: 390px) {
+  li.humidity {
+    display: flex;
+
+    float: left;
+    margin-left: -40px;
+  }
+
+  li.wind {
+    display: flex;
+    float: right;
+    margin-bottom: 20px;
+  }
+
+  .fa-droplet,
+  .fa-wind {
+    color: white;
+    margin-right: 5px;
+    font-size: 19px;
+  }
+
+  strong {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  li span {
+    margin-right: 5px;
+  }
+
+  .fa-calendar {
+    margin-top: 2px;
+    font-size: 25px;
+    color: white;
+  }
+  .InfoWeather .date {
+    font-size: medium;
+    font-weight: bold;
+    font-family: monospace;
+    display: inline-flex;
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .InfoWeather hr {
+    display: none;
+    
+  }
 }

@@ -3,7 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 import InfoWeather from "./InfoWeather";
 import HeaderCities from "./HeaderCities";
-import Forecast from "./Forecast";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -11,6 +11,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
@@ -63,7 +64,7 @@ export default function Weather(props) {
         </div>
 
         <InfoWeather data={weatherData} />
-        <Forecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
