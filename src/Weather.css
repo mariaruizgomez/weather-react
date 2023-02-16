@@ -133,7 +133,7 @@ span {
   color: white;
 }
 
-@media (max-width: 391px) {
+@media (max-width: 576px) {
   li.humidity {
     display: flex;
     float: left;
