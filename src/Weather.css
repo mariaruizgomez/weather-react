@@ -7,12 +7,13 @@
   padding: 10px;
   border: 5px solid #efcad2;
   border-radius: 13px;
-  background-color: white;
+  background-color: rgb(126, 160, 223);
+  
 }
 
 .Weather h1 {
   font-size: 40px;
-  color: #38389e;
+  color: #f2ced8;
   font-weight: 700;
   display: flex;
   float: right;
@@ -24,7 +25,7 @@
   display: flex;
 
   float: right;
-  color: #f2ced8;
+  color: #38389e;
   margin: 0 30px;
   font-size: 30px;
   margin-top: 8px;
@@ -42,7 +43,7 @@ form {
 .search-button {
   margin: 10px;
   padding: 0 20px;
-  color: #38389e;
+  color: white;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -65,7 +66,7 @@ form {
 
 .description {
   font-size: 35px;
-  color: #38389e;
+  color: #f2ced8;
   display: flex;
   justify-content: left;
   font-family: poppis;

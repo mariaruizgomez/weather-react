@@ -5,27 +5,27 @@
   border-radius: 13px;
   padding: 15px;
   margin: 0;
-  background-color: #EFCAD2;
+  
   
   
 }
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
-  color: #38389e;
+  color: #EFCAD2;
   font-weight: bold;
   
   
 }
 
 .WeatherForecast-temperature-max {
-color: #38389e;
+color: #EFCAD2;
 font-weight: bold;
 }
 
 
 .WeatherForecast-day{
-  color: #38389e;
+  color: #EFCAD2;
   font-size: 19px;
   font-weight: bold;
   margin-bottom: 10px;
