@@ -1,34 +1,32 @@
 .Weather {
-  margin: 5px;
   padding: 5px;
-  border: 1px solid burlywood;
-  border-radius: 8px;
+ 
+  
   max-width: 600px;
   margin: 15px auto;
   margin-bottom: 5px;
-  padding: 25px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/677/original/globe.jpg?1673622041");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 20px;
+  border: 10px solid #EFCAD2;
+  border-radius: 13px;
+  background-color: #7ea0df;
 }
 
 .Weather h1 {
   font-size: 40px;
-  color: white;
+  color: #f2ced8;
   font-weight: 700;
   display: flex;
   float: right;
+  font-family: "Roboto", sans-serif;
+  margin: 0 30px;
 }
 
 .fa-location-dot {
   display: flex;
 
   float: right;
-  color: #38389e;
-  margin: 0 20px;
+  color: white;
+  margin: 0 30px;
   font-size: 30px;
   margin-top: 8px;
 }
@@ -44,17 +42,12 @@ form {
 
 .search-button {
   margin: 10px;
-  padding: 0 10px;
-  color: #38389e;
+  padding: 0 20px;
+  color: white;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
-  transition: all 200ms ease-in-out;
   font-size: large;
-}
-
-.search-button:hover {
-  color: white;
 }
 
 .Weather ul {
@@ -69,23 +62,24 @@ form {
 .InfoWeather canvas {
   display: inline-block;
   margin-top: -22px;
+
 }
 
 .description {
   font-size: 35px;
-  color: #38389e;
+  color: #f2ced8;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   font-family: poppis;
   font-weight: 900;
   transition: all 200ms ease-in-out;
-  margin-bottom: 5px;
-  margin-left: 40px;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 .temperature {
   font-size: 75px;
-  color: #38389e;
+  color: white;
   font-weight: 400;
   float: left;
   margin-top: -30px;
@@ -94,7 +88,7 @@ form {
 }
 .unit a {
   text-decoration: none;
-  color: #38389e;
+  color: white;
   font-weight: bold;
 }
 
@@ -106,19 +100,22 @@ form {
   width: 200px;
   background-color: #38389e;
   height: 5px;
+ 
 }
-.fa-calendar,
+
 .fa-droplet,
 .fa-wind {
   color: white;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 25px;
+  margin-left: 30px;
 }
 
 .fa-calendar {
   margin-top: 2px;
   font-size: 25px;
-  color: white;
+  color: #38389e;
+  margin-right: 10px;
 }
 .InfoWeather .date {
   font-size: medium;
@@ -131,7 +128,18 @@ form {
 
 span {
   color: white;
+  
 }
+
+strong {
+  margin: 5px;
+}
+
+
+
+
+
+
 
 @media (max-width: 576px) {
   li.humidity {

@@ -3,11 +3,10 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
-
 export default function InfoWeather(props) {
   return (
     <div className="InfoWeather">
-      <div className="row d-flex align-items-right">
+      <div className="row d-flex align-items-center">
         <div className="col-12 d-flex flex-column justify-content-center">
           <div className="current-city">
             <h1>
@@ -18,7 +17,7 @@ export default function InfoWeather(props) {
         </div>
       </div>
 
-      <div className="row d-flex align-items-right">
+      <div className="row d-flex align-items-center">
         <div className="col-12 d-flex flex-column justify-content-center">
           <div className="text-capitalize description">
             {props.data.description}

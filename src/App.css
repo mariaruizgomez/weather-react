@@ -1,9 +1,25 @@
 .App {
   max-width: 600px;
   margin: 10px auto;
-  
+  padding-top: 2px;
+  opacity: 0.7;
+  border-radius: 13px;
+  background-color: #7ea0df;
 }
 .App footer {
   font-size: 11px;
   font-family: monospace;
+  
+}
+
+.App footer a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/677/original/globe.jpg?1673622041");
+  background-repeat: no-repeat;
+  background-size: cover;
+   
 }

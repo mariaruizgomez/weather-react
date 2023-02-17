@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import InfoWeather from "./InfoWeather";
-import HeaderCities from "./HeaderCities";
+
 import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
@@ -42,10 +42,8 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="row">
-          <div className="col-12 col-md-6 d-flex flex-column justify-content-center ">
-            <HeaderCities />
-          </div>
-          <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+          
+          <div className="col-12 col-md-12 d-flex flex-column justify-content-center">
             <form onSubmit={handleSubmit}>
               <input
                 type="search"
