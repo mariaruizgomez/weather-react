@@ -141,19 +141,16 @@ strong {
 @media (max-width: 576px) {
   li.humidity {
     display: inline-block;
-    
   }
 
   li.wind {
     display: inline-block;
-    
+
     margin-bottom: 20px;
   }
 
   .fa-droplet,
   .fa-wind {
-    color: white;
-
     font-size: 19px;
   }
 
@@ -164,26 +161,21 @@ strong {
 
   li span {
     margin-right: 1px;
-    color: white;
   }
 
   .fa-calendar {
     margin-top: 2px;
     font-size: 25px;
-    color: white;
   }
   .InfoWeather .date {
     font-size: medium;
     font-weight: bold;
     font-family: monospace;
     display: inline-flex;
-    color: white;
 
     font-size: 20px;
   }
   .Weather h1 {
-  
-  margin: 0 5px;
-}
-
+    margin: 0 5px;
+  }
 }
