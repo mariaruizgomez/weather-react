@@ -8,7 +8,6 @@
   border: 5px solid #efcad2;
   border-radius: 13px;
   background-color: rgb(126, 160, 223);
-  
 }
 
 .Weather h1 {
@@ -26,7 +25,7 @@
 
   float: right;
   color: #38389e;
-  margin: 0 30px;
+  margin: 0 10px;
   font-size: 30px;
   margin-top: 8px;
 }
@@ -141,31 +140,31 @@ strong {
 
 @media (max-width: 576px) {
   li.humidity {
-    display: flex;
-    float: left;
-    margin-left: -10px;
+    display: inline-block;
+    
   }
 
   li.wind {
-    display: flex;
-    float: right;
+    display: inline-block;
+    
     margin-bottom: 20px;
   }
 
   .fa-droplet,
   .fa-wind {
     color: white;
-    margin-right: 5px;
+
     font-size: 19px;
   }
 
   strong {
-    margin-right: 3px;
-    margin-left: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
   }
 
   li span {
-    margin-right: 5px;
+    margin-right: 1px;
+    color: white;
   }
 
   .fa-calendar {
@@ -179,11 +178,12 @@ strong {
     font-family: monospace;
     display: inline-flex;
     color: white;
-    float: right;
+
     font-size: 20px;
-    margin-bottom: 20px;
   }
-  .InfoWeather hr {
-    display: none;
-  }
+  .Weather h1 {
+  
+  margin: 0 5px;
+}
+
 }
