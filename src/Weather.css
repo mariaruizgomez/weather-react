@@ -10,6 +10,12 @@
   background-color: rgb(126, 160, 223);
 }
 
+.InfoWeather {
+  border: 5px solid #efcad2;
+  border-radius: 13px;
+  margin-bottom: 10px;
+}
+
 .Weather h1 {
   font-size: 40px;
   color: #f2ced8;
@@ -138,15 +144,11 @@ strong {
   margin: 5px;
 }
 
-@media (max-width: 576px) {
-  li.humidity {
-    display: inline-block;
-  }
-
+@media (max-width: 475px) {
+  li.humidity,
   li.wind {
-    display: inline-block;
-
-    margin-bottom: 20px;
+    display: inline-flex;
+    margin-left: -25px;
   }
 
   .fa-droplet,
@@ -155,12 +157,12 @@ strong {
   }
 
   strong {
-    margin-right: 1px;
-    margin-left: 1px;
+    margin: 0;
+    margin-right: 5px;
   }
 
   li span {
-    margin-right: 1px;
+    margin-right: 5px;
   }
 
   .fa-calendar {
@@ -172,8 +174,16 @@ strong {
     color: white;
     display: inline-flex;
     font-size: 20px;
+    margin-left: 55px;
+  }
+
+  .InfoWeather hr {
+    width: 250px;
+    background-color: #38389e;
+    margin-left: 30px;
   }
   .Weather h1 {
     margin: 0 5px;
+    margin-top: 10px;
   }
 }

@@ -36,7 +36,7 @@ export default function InfoWeather(props) {
             <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>
-        <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <div className="col-12 col-md-6 d-flex flex-column justify-content-right">
           <ul>
             <li className="date">
               <i class="fa-regular fa-calendar"> </i>
