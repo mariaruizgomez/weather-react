@@ -1,19 +1,18 @@
 .Weather {
   padding: 5px;
- 
-  
+
   max-width: 600px;
   margin: 15px auto;
   margin-bottom: 5px;
-  padding: 20px;
-  border: 10px solid #EFCAD2;
+  padding: 10px;
+  border: 5px solid #efcad2;
   border-radius: 13px;
-  background-color: #7ea0df;
+  background-color: white;
 }
 
 .Weather h1 {
   font-size: 40px;
-  color: #f2ced8;
+  color: #38389e;
   font-weight: 700;
   display: flex;
   float: right;
@@ -25,7 +24,7 @@
   display: flex;
 
   float: right;
-  color: white;
+  color: #f2ced8;
   margin: 0 30px;
   font-size: 30px;
   margin-top: 8px;
@@ -43,7 +42,7 @@ form {
 .search-button {
   margin: 10px;
   padding: 0 20px;
-  color: white;
+  color: #38389e;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -62,12 +61,11 @@ form {
 .InfoWeather canvas {
   display: inline-block;
   margin-top: -22px;
-
 }
 
 .description {
   font-size: 35px;
-  color: #f2ced8;
+  color: #38389e;
   display: flex;
   justify-content: left;
   font-family: poppis;
@@ -79,16 +77,22 @@ form {
 
 .temperature {
   font-size: 75px;
-  color: white;
+  color: #38389e;
   font-weight: 400;
   float: left;
   margin-top: -30px;
   display: flex;
   margin-left: 20px;
 }
+.unit {
+  text-decoration: none;
+  color: #38389e;
+  font-weight: bold;
+}
+
 .unit a {
   text-decoration: none;
-  color: white;
+  color: #38389e;
   font-weight: bold;
 }
 
@@ -100,12 +104,11 @@ form {
   width: 200px;
   background-color: #38389e;
   height: 5px;
- 
 }
 
 .fa-droplet,
 .fa-wind {
-  color: white;
+  color: #f2ced8;
   margin-right: 5px;
   font-size: 25px;
   margin-left: 30px;
@@ -122,24 +125,18 @@ form {
   font-weight: bold;
   font-family: monospace;
   display: inline-flex;
-  color: white;
+  color: #38389e;
   font-size: 20px;
 }
 
 span {
-  color: white;
-  
+  color: #f2ced8;
+  font-weight: 600;
 }
 
 strong {
   margin: 5px;
 }
-
-
-
-
-
-
 
 @media (max-width: 576px) {
   li.humidity {
