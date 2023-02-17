@@ -166,13 +166,11 @@ strong {
   .fa-calendar {
     margin-top: 2px;
     font-size: 25px;
+    color: white;
   }
   .InfoWeather .date {
-    font-size: medium;
-    font-weight: bold;
-    font-family: monospace;
+    color: white;
     display: inline-flex;
-
     font-size: 20px;
   }
   .Weather h1 {
